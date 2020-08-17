@@ -4,3 +4,10 @@ pip3 install --upgrade pip
 mkdir teste; cd teste
 pip3 install virtualenv
 source bin/activate
+pip3 install flask
+vim hello.py
+
+-conteudo-
+
+pip freeze > requirements.txt
+echo "web: python hello.py" > Procfile
